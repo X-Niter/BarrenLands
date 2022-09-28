@@ -1,0 +1,12 @@
+{
+  "type": "barrenlands:barrendim",
+  "generator": {
+    "type": "barrenlands:barren_chunkgen",
+    "settings": {
+      "base": 65,
+      "verticalvariance": 5,
+      "horizontalvariance": 16
+    }
+  },
+  "forge:use_server_seed": true
+}
