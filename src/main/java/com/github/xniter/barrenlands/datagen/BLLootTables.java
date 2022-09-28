@@ -1,7 +1,5 @@
 package com.github.xniter.barrenlands.datagen;
 
-import net.minecraft.data.DataGenerator;
-
 public class BLLootTables extends BaseLootTablePovider {
 
 //    public BLLootTables(DataGenerator generator) {

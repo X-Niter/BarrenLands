@@ -1,12 +1,35 @@
 {
   "type": "barrenlands:barrendim",
   "generator": {
-    "type": "barrenlands:barren_chunkgen",
+    "type": "minecraft:noise",
+    "seed": 1977118520,
     "settings": {
-      "base": 65,
-      "verticalvariance": 5,
-      "horizontalvariance": 16
-    }
+      "sea_level": 63,
+      "disable_mob_generation": false,
+      "aquifers_enabled": false,
+      "ore_veins_enabled": false,
+      "legacy_random_source": false,
+      "default_block": {
+        "Name": "minecraft:stone"
+      },
+      "default_fluid": {
+        "Name": "minecraft:air",
+        "Properties": {
+          "level": "0"
+        }
+      },
+      "noise": {
+      "surface_rule": {
+        "type": "minecraft:block",
+        "result_state": {
+          "Name": "barrenlands:barren_land"
+        }
+      }
+    },
+      "biome_source": {
+        "type": "minecraft:multi_noise",
+        "preset": "minecraft:overworld"
+      }
   },
   "forge:use_server_seed": true
 }

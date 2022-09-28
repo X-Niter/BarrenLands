@@ -1,5 +1,6 @@
-package com.github.xniter.barrenlands;
+package com.github.xniter.barrenlands.modsetup;
 
+import com.github.xniter.barrenlands.Barrenlands;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;

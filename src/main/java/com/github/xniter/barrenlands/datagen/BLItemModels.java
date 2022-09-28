@@ -1,12 +1,10 @@
 package com.github.xniter.barrenlands.datagen;
 
 import com.github.xniter.barrenlands.Barrenlands;
-import com.github.xniter.barrenlands.Registry;
+import com.github.xniter.barrenlands.modsetup.Registry;
 import net.minecraft.data.DataGenerator;
 import net.minecraftforge.client.model.generators.ItemModelProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
-
-import java.util.Objects;
 
 public class BLItemModels extends ItemModelProvider {
 

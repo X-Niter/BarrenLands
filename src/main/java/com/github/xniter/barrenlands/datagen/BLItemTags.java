@@ -1,14 +1,12 @@
 package com.github.xniter.barrenlands.datagen;
 
 import com.github.xniter.barrenlands.Barrenlands;
-import com.github.xniter.barrenlands.Registry;
+import com.github.xniter.barrenlands.modsetup.Registry;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.tags.BlockTagsProvider;
 import net.minecraft.data.tags.ItemTagsProvider;
-import net.minecraft.tags.BlockTags;
 import net.minecraft.tags.ItemTags;
 import net.minecraftforge.common.data.ExistingFileHelper;
-import org.jetbrains.annotations.Nullable;
 
 public class BLItemTags extends ItemTagsProvider {
 
